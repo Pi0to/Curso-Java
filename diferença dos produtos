@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        
+        Scanner sc = new Scanner(System.in);
+
+        int n1, n2, n3, n4;
+
+        System.out.print("Digite do primeiro numero ");
+        n1 = sc.nextInt();
+        System.out.print("Digite do segundo numero ");
+        n2 = sc.nextInt();
+        System.out.print("Digite do terceiro numero ");
+        n3 = sc.nextInt();
+        System.out.print("Digite do quarto numero ");
+        n4 = sc.nextInt();
+        
+        System.out.println("A diferença da soma dos numeros eh: " + ((n1 * n2) - (n3 * n4)));
+
+        sc.close();
+    }
+}
