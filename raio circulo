@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        
+        Scanner sc = new Scanner(System.in);
+
+        double r, a;
+
+        System.out.print("Digite o valor do raio: ");
+        r = sc.nextDouble();
+        
+        a = r * r * 3.14159;
+        
+        
+        System.out.printf("A area do circulo eh %.4f", a);
+
+        sc.close();
+    }
+}
